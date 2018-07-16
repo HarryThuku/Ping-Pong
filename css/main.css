@@ -47,3 +47,48 @@ button:hover{
     opacity: .6;
     color: white;
 }
+/* css for #sect2 */
+#sect2{
+    display: none;
+    position: relative;
+    text-align: center;
+    padding: 5%;
+    margin: 10%;
+}
+#sect2-1{
+    text-align: center;
+}
+#sect2-1 #form1{
+    padding: 10px;
+    background-color: aquamarine;
+    opacity: .5;
+}
+#avatarimg1,
+#avatarimg2{
+    height: 120px;
+    width: 120px;
+    border-radius: 90px;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+#sect2-1 #form1 p{
+    margin: 20px;
+}
+#sect2-1 #form1 #sect2-1-2{
+    padding: 15px ;
+}
+#sect2-1 #form1 #sect2-1-2 input{
+    padding: 8px 8px;
+    size: 12px;
+    border: none;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+#submitPlayerName{
+    padding: 10px;
+    size: 15px;
+    border: none;
+    box-shadow: rgba(0 ,0 ,0 , 24);
+    border-radius: 3px;
+}
