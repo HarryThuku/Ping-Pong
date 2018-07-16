@@ -24,3 +24,10 @@ function results(intValue){
     }
     i=i+1;
 }
+
+var pingCount = 0
+    var pongCount = 0
+    var pingPongCount = 0
+    var neitherCount = 0
+    var playerName;
+    
