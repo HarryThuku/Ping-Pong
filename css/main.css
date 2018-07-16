@@ -92,3 +92,69 @@ button:hover{
     box-shadow: rgba(0 ,0 ,0 , 24);
     border-radius: 3px;
 }
+/* css for #sect3 */
+#sect3{
+    display: none;
+    position: relative;
+    text-align: center;
+    padding: 5%;
+    margin-top: 10%;
+    background-color: aquamarine;
+    opacity: .5;
+}
+#gamePlayStats{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 0;
+    text-align: left;
+}
+#gamePlayStats  #gameStats ul{
+    display: block;
+}
+#gaming{
+    padding: 20px 0;
+}
+#theGame{
+    padding: 10px 0;
+}
+#playerValue{
+    padding: 8px 5px;
+    size: 12px;
+    border: none;
+    text-align: center;
+    width: 120px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+#playPost,
+#Retry{
+    padding: 8px 10px;
+    size: 15px;
+    border: none;
+    box-shadow: rgba(0 ,0 ,0 , 24);
+    border-radius: 3px;
+}
+.Retry{
+    display: none;
+}
+input:grammar-error{
+    text-underline-position: below;
+}
+#playerValue:hover,
+#sect2-1 #form1 #sect2-1-2 input:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.12);
+    margin-right: 8px;
+    filter: brightness(0.4);
+}
+img:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+    filter: brightness(0.4);
+}
+#gameLogs{
+    max-height: 200px;
+    overflow: scroll;
+    scroll-behavior: auto;
+    text-align: left;
+}
