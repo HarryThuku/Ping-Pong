@@ -30,4 +30,31 @@ var pingCount = 0
     var pingPongCount = 0
     var neitherCount = 0
     var playerName;
-    
+
+$().ready(function(){
+    $("#submitPlayerName").click(function(event){
+        event.preventDefault();
+        var avatarName=$("#userName").val();
+        if(avatarName.length<4){
+            alert("Oh! Make sure the your name has more than four characters, example 'mike' or 'mikey' :)");
+            $("#userName").val("");
+            event.preventDefault();
+        }
+        else{
+            playerName=$("#userName").val();
+            $("#sect2").hide(2000);
+            $("#sect3").show(2000);
+            $('#playerAKA').text(playerName);
+        }
+    })
+
+    $("#playPost").click(function(event){
+        event.preventDefault();
+        var intValue=parseInt($("#playerValue").val())
+        $("#theGame").hide(1000);
+        results(intValue);
+        $("#playerValue").val("");        
+        $(".Retry").show(1500);
+    }); 
+
+})
