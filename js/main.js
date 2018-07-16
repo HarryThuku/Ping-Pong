@@ -42,8 +42,8 @@ $().ready(function(){
         }
         else{
             playerName=$("#userName").val();
-            $("#sect2").hide(2000);
-            $("#sect3").show(2000);
+            $("#sect2").hide(400);
+            $("#sect3").show(1000);
             $('#playerAKA').text(playerName);
         }
     })
@@ -51,19 +51,19 @@ $().ready(function(){
     $("#playPost").click(function(event){
         event.preventDefault();
         var intValue=parseInt($("#playerValue").val())
-        $("#theGame").hide(1000);
+        $("#theGame").hide(400);
         results(intValue);
         $("#playerValue").val("");        
-        $(".Retry").show(1500);
+        $(".Retry").show(1000);
     });
     $("#Retry").click(function(event){
         event.preventDefault();
-        $(".Retry").hide(1000);
-        $("#theGame").show(1500);       
+        $(".Retry").hide(400);
+        $("#theGame").show(1000);       
     });
     $("#btn1").click(function(event){
         event.preventDefault();
-        $("#sect1").hide(2000);
-        $("#sect2").show(2000);     
+        $("#sect1").hide(400);
+        $("#sect2").show(1000);     
     });
 })
