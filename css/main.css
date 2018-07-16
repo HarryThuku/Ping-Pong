@@ -5,3 +5,45 @@ body{
     scroll-behavior: smooth;
     background-color: bisque;
 }
+/* css for #sect1 */
+#sect1{
+    position: relative;
+    text-align: center;
+    padding: 10%;
+    margin: 5%;
+    opacity: .5;
+    background-color: aquamarine;
+}
+#sect1-1{
+    text-align: center;
+    padding: 5%;
+}
+#sect1-1 h1{
+    size: 30px;
+}
+#sect1-1 p{
+    size: 15px;
+    text-rendering: geometricPrecision;
+    line-height: 1.5;
+}
+#sect1-3{
+    padding: 5px;
+
+}
+#sect1-3 #btn1{
+    padding: 10px;
+    size: 15px;
+    border: none;
+    box-shadow: rgba(0 ,0 ,0 , 24);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    transform: scale(1);
+}
+button:hover{
+    transform: scale(1.12);
+    transition: all 0.6s ease-in-out;
+    background-color: darkgreen;
+    opacity: .6;
+    color: white;
+}
