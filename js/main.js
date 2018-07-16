@@ -1,3 +1,3 @@
-$(document).ready(function(){
-    alert("hey there. i work")
-})
+// $(document).ready(function(){
+//     alert("hey there. i work")
+// })
