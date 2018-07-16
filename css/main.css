@@ -158,3 +158,28 @@ img:hover{
     scroll-behavior: auto;
     text-align: left;
 }
+h1{
+    color: darkgoldenrod;
+}
+#pingstrike{
+    color: darkred;
+}
+.smiley{
+    color: brown;
+    size: 18px;
+}
+.ping,
+#pingCount{
+    color: brown;
+}
+.pong,
+#pongCount{
+    color: steelblue;
+}
+.pingpong,
+#pingpongCount{
+    color: chocolate;
+}
+#madMax{
+    text-align: center;
+}
