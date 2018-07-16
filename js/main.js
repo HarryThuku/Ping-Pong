@@ -55,6 +55,15 @@ $().ready(function(){
         results(intValue);
         $("#playerValue").val("");        
         $(".Retry").show(1500);
-    }); 
-
+    });
+    $("#Retry").click(function(event){
+        event.preventDefault();
+        $(".Retry").hide(1000);
+        $("#theGame").show(1500);       
+    });
+    $("#btn1").click(function(event){
+        event.preventDefault();
+        $("#sect1").hide(2000);
+        $("#sect2").show(2000);     
+    });
 })
